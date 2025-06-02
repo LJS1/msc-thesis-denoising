@@ -1,3 +1,17 @@
+# Personal .gitignore
+
+/data/raw/*
+/data/processed/*
+
+# Make sure we still commit the .gitkeep files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore outputs/ (logs, models, large figures)
+/outputs/*
+
+# Python .gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
