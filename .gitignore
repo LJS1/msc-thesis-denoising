@@ -1,5 +1,11 @@
 # Personal .gitignore
 
+
+# Ignore the .vscode/.venv directory
+/.vscode/
+
+
+# Ignore all files in the data directory
 /data/raw/*
 /data/processed/*
 
